@@ -33,7 +33,7 @@
 #include <android/hardware/contexthub/1.0/IContexthub.h>
 #include <hardware/context_hub.h>
 #include <sys/endian.h>
-
+#include <fcntl.h>
 #undef LOG_TAG
 #define LOG_TAG "NanohubHidlAdapter"
 

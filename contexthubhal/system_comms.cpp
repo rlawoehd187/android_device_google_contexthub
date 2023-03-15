@@ -34,7 +34,7 @@
 #include <sys/stat.h>
 
 #include <media/stagefright/foundation/ADebug.h>
-
+#include <fcntl.h>
 #include <hardware/context_hub.h>
 #include "nanohub_perdevice.h"
 #include "system_comms.h"
